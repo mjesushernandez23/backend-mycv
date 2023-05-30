@@ -4,7 +4,8 @@
   "info": {
     "singularName": "resume",
     "pluralName": "resumes",
-    "displayName": "resume"
+    "displayName": "resume",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,7 +23,7 @@
       "type": "string"
     },
     "aboutMe": {
-      "type": "text"
+      "type": "string"
     },
     "workExperience": {
       "type": "richtext"
@@ -41,11 +42,12 @@
       "component": "skills-list.skills-list"
     },
     "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
