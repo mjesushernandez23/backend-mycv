@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_skills_list_skills_lists",
+  "info": {
+    "displayName": "skillsList"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "languages",
+        "frameworks",
+        "librariesComponents",
+        "librariesUtilities",
+        "software"
+      ]
+    },
+    "list": {
+      "type": "richtext"
+    }
+  }
+}

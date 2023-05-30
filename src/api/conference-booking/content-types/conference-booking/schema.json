@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conference_bookings",
+  "info": {
+    "singularName": "conference-booking",
+    "pluralName": "conference-bookings",
+    "displayName": "Conference Booking"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "time": {
+      "type": "datetime"
+    },
+    "url": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "text",
+      "minLength": 7
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

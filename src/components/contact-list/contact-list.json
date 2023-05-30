@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_list_contact_lists",
+  "info": {
+    "displayName": "contactList"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "email",
+        "tel",
+        "linkedin",
+        "repository"
+      ]
+    },
+    "list": {
+      "type": "richtext"
+    }
+  }
+}

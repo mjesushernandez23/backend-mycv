@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "resumes",
+  "info": {
+    "singularName": "resume",
+    "pluralName": "resumes",
+    "displayName": "resume"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "aboutMe": {
+      "type": "text"
+    },
+    "workExperience": {
+      "type": "richtext"
+    },
+    "study": {
+      "type": "richtext"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-list.contact-list"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills-list.skills-list"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
