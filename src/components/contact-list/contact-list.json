@@ -1,7 +1,8 @@
 {
   "collectionName": "components_contact_list_contact_lists",
   "info": {
-    "displayName": "contactList"
+    "displayName": "contactList",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,8 +15,9 @@
         "repository"
       ]
     },
-    "list": {
-      "type": "richtext"
+    "value": {
+      "type": "string",
+      "required": true
     }
   }
 }
