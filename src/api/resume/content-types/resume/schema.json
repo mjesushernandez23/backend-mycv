@@ -23,7 +23,7 @@
       "type": "string"
     },
     "aboutMe": {
-      "type": "string"
+      "type": "text"
     },
     "workExperience": {
       "type": "richtext"
